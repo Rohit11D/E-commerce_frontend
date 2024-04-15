@@ -14,13 +14,17 @@
     padding-left: 180px;
     line-height: 1;
 }
+
+@keyframes fadeInOut {
+   0%, 100% { opacity: 0; }
+   50% { opacity: 1; }
+}
 .hero-left h2{
-    color:#090909;
+    color:#ff4141;
     font-size: 26px;
     font-weight: 600;
-    
+    animation: fadeInOut 1s infinite;
 }
-
 .hero-left p{
     color: #171717;
     font-size: 75px;
